@@ -1,0 +1,7 @@
+category: Java
+requires: ant
+sdesc: "Ant task for uploading to Google Code"
+ldesc: "This project currently provides a single Ant task which uploads
+files to a Google Code project's file space. The typical use case is 
+release automation: The ant script can create release binaries and 
+upload the results to Google Code all in one step."

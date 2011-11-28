@@ -1,0 +1,11 @@
+JAVA_CLASSPATH="javac.jar"
+SVN_URI="http://ant-googlecode.googlecode.com/svn"
+SVN_REV=${PV#*-r}
+inherit ant svn
+
+
+HOMEPAGE="http://code.google.com/p/ant-googlecode/"
+
+SRC_DIR="svn/${PN}"
+
+ANT_INSTALL_TASKS="${PN}*.jar"
